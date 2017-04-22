@@ -1,4 +1,7 @@
-# test coverage for  [di (v0.0.1)](https://github.com/vojtajina/node-di#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-di.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-di) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-di.svg)](https://travis-ci.org/npmtest/node-npmtest-di)
+# npmtest-di
+
+#### basic test-coverage for  [di (v0.0.1)](https://github.com/vojtajina/node-di#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-di.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-di) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-di.svg)](https://travis-ci.org/npmtest/node-npmtest-di)
+
 #### Dependency Injection for Node.js. Heavily inspired by AngularJS.
 
 [![NPM](https://nodei.co/npm/di.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/di)
@@ -76,7 +79,8 @@
     "scripts": {
         "test": "mocha --compilers coffee:coffee-script test/*"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
